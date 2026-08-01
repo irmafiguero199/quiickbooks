@@ -3,14 +3,14 @@ import SEO from '../components/SEO'
 export default function PrivacyPolicy() {
   return (
     <>
-      <SEO title="Privacy Policy" description="TaxUSA privacy policy." pathname="/privacy-policy" />
+      <SEO title="Privacy Policy" description="azure-artsfoundation privacy policy." pathname="/privacy-policy" />
       <div className="container-main py-12">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">Privacy Policy</h1>
           <div className="prose prose-gray max-w-none text-gray-600">
             <p className="mb-4">Last updated: June 28, 2026</p>
 
-            <p className="mb-4">TaxUSA ("we") respects your privacy. This policy explains what we collect and why.</p>
+            <p className="mb-4">azure-artsfoundation ("we") respects your privacy. This policy explains what we collect and why.</p>
 
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">Data We Collect</h2>
             <ul className="list-disc pl-5 mb-4 space-y-2">
@@ -30,10 +30,10 @@ export default function PrivacyPolicy() {
             <p className="mb-4">Only with processors that help us operate (payment, email, hosting, analytics) under appropriate agreements. We never sell your data.</p>
 
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">Your Rights</h2>
-            <p className="mb-4">Access, correct, delete, port, and object to or restrict processing. Email <a href="mailto:support@taxusa.shop" className="text-blue-600 hover:underline">support@taxusa.shop</a> to exercise these rights.</p>
+            <p className="mb-4">Access, correct, delete, port, and object to or restrict processing. Email <a href="mailto:admin@azure-artsfoundation.org" className="text-blue-600 hover:underline">admin@azure-artsfoundation.org</a> to exercise these rights.</p>
 
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">Contact</h2>
-            <p><a href="mailto:support@taxusa.shop" className="text-blue-600 hover:underline">support@taxusa.shop</a> · <a href="https://taxusa.shop" className="text-blue-600 hover:underline">https://taxusa.shop</a></p>
+            <p><a href="mailto:admin@azure-artsfoundation.org" className="text-blue-600 hover:underline">admin@azure-artsfoundation.org</a> · <a href="https://azure-artsfoundation.org" className="text-blue-600 hover:underline">https://azure-artsfoundation.org</a></p>
           </div>
         </div>
       </div>
