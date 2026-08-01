@@ -34,10 +34,10 @@ export default function ProductDetails() {
     "image": product.image,
     "description": product.description,
     "sku": product.sku,
-    "brand": { "@type": "Brand", "name": "QuickBooks" },
+    "brand": { "@type": "Brand", "name": "azure-artsfoundation" },
     "offers": {
       "@type": "Offer",
-      "url": `https://usquickbooks.shop/shop/${product.slug}`,
+      "url": `https://azure-artsfoundation.org/shop/${product.slug}`,
       "priceCurrency": "USD",
       "price": product.price.toFixed(2),
       "availability": product.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
