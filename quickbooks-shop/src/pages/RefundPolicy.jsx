@@ -8,9 +8,9 @@ export default function RefundPolicy() {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">Refunds & Returns Policy</h1>
           <div className="prose prose-gray max-w-none text-gray-600">
-            <p className="mb-4">Last updated: December 2024</p>
+            <p className="mb-4">Last updated: Last updated: 2026-06-28</p>
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">Digital Products</h2>
-            <p className="mb-4">Due to the nature of digital license keys, all sales are final once the product has been delivered. License keys cannot be returned or exchanged after activation.</p>
+            <p className="mb-4">If you are unable to activate your software or it does not work as described, contact us within 30 days of purchase and we will help resolve the issue or issue a refund..</p>
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">Eligibility for Refund</h2>
             <p className="mb-4">A refund may be considered only if:</p>
             <ul className="list-disc pl-6 mb-4 space-y-1">
