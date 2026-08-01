@@ -3,13 +3,13 @@ import SEO from '../components/SEO'
 export default function TermsConditions() {
   return (
     <>
-      <SEO title="Terms & Conditions" description="TaxUSA terms and conditions." pathname="/terms-conditions" />
+      <SEO title="Terms & Conditions" description="azure-artsfoundation terms and conditions." pathname="/terms-conditions" />
       <div className="container-main py-12">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">Terms & Conditions</h1>
           <div className="prose prose-gray max-w-none text-gray-600">
-            <p className="mb-4">Last updated: June 28, 2026</p>
-            <p className="mb-4">These Terms govern your use of TaxUSA (https://taxusa.shop) and any purchase you make.</p>
+     k       <p className="mb-4">Last updated: June 28, 2026</p>
+            <p className="mb-4">These Terms govern your use of azure-artsfoundation (https://azure-artsfoundation.org) and any purchase you make.</p>
 
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">1. Products</h2>
             <p className="mb-4">We sell digital software licenses delivered electronically. Prices and offers are shown at checkout and may change without notice.</p>
@@ -36,7 +36,7 @@ export default function TermsConditions() {
             <p className="mb-4">These Terms are governed by the laws of the jurisdiction in which TaxUSA is established.</p>
 
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">Contact</h2>
-            <p><a href="mailto:support@taxusa.shop" className="text-blue-600 hover:underline">support@taxusa.shop</a></p>
+            <p><a href="mailto:admin@azure-artsfoundation.org" className="text-blue-600 hover:underline">admin@azure-artsfoundation.org</a></p>
           </div>
         </div>
       </div>
