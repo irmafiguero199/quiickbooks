@@ -13,21 +13,21 @@ export default function Home() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "USQuickbooks",
-    "url": "https://usquickbooks.shop",
-    "logo": "https://usquickbooks.shop/favicon.svg",
-    "email": "contact@usquickbooks.com",
+    "name": "azure-artsfoundation",
+    "url": "https://azure-artsfoundation.org",
+    "logo": "https://azure-artsfoundation.org/favicon.svg",
+    "email": "admin@azure-artsfoundation.org",
     "sameAs": []
   }
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "USQuickbooks",
-    "url": "https://usquickbooks.shop",
+    "name": "azure-artsfoundation",
+    "url": "https://azure-artsfoundation.org",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://usquickbooks.shop/shop?q={search_term_string}",
+      "target": "https://azure-artsfoundation.org/shop?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
