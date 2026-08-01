@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://usquickbooks.shop/sitemap.xml
+Sitemap: https://azure-artsfoundation.org/sitemap.xml
