@@ -35,21 +35,31 @@ export default function Footer() {
                 <span className="block text-[10px] text-primary-400 font-semibold -mt-1">Authorized Partner</span>
               </div>
             </div>
-            <p className="text-sm text-gray-400 mb-4">
-              Need help? Our live chat is available
-            </p>
-            <div className="space-y-2 text-sm">
-              <p className="font-semibold text-white">USQuickbooks</p>
-              <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-primary-400" />
-                <a href="mailto:admin@azure-artsfoundation.org" className="hover:text-white transition-colors">
-                   admin@azure-artsfoundation.org
-                   +1 (505) 399-7162
-                   Waßmannsdorfer Chaussee 117 Schönefeld 12529 Germany
-                </a>
-              </div>
-            </div>
-          </div>
+           <p className="text-sm text-gray-400 mb-4">
+  Need help? Our live chat is available
+</p>
+<div className="space-y-2 text-sm">
+  <p className="font-semibold text-white">Azure Arts Foundation</p>
+  
+  <div className="flex items-center gap-2">
+    <Mail className="w-4 h-4 text-primary-400" />
+    <a href="mailto:admin@azure-artsfoundation.org" className="hover:text-white transition-colors">
+      admin@azure-artsfoundation.org
+    </a>
+  </div>
+  
+  <div className="flex items-center gap-2">
+    <Phone className="w-4 h-4 text-primary-400" />
+    <a href="tel:+15053997162" className="hover:text-white transition-colors">
+      +1 (505) 399-7162
+    </a>
+  </div>
+  
+  <div className="flex items-start gap-2">
+    <MapPin className="w-4 h-4 text-primary-400 mt-0.5" />
+    <span>Waßmannsdorfer Chaussee 117, Schönefeld 12529, Germany</span>
+  </div>
+</div>
 
           {/* Policies */}
           <div>
