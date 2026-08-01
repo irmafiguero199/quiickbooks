@@ -12,22 +12,42 @@ export default function Contact() {
 
   return (
     <>
-      <SEO title="Contact Us" description="Get in touch with USQuickbooks support team." pathname="/contact" />
+      <SEO title="Contact Us" description="Get in touch with Azure Arts Foundation." pathname="/contact" />
       <div className="container-main py-12">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-4 text-center">Contact Us</h1>
-          <p className="text-gray-600 text-center mb-12">Have questions? We're here to help you with your QuickBooks licensing needs.</p>
+          <p className="text-gray-600 text-center mb-12">Have questions? We're here to help.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {[
-              { icon: Mail, title: 'Email', info: 'contact@usquickbooks.com' },
-              { icon: Phone, title: 'Phone', info: '+1 (555) 123-4567' },
-              { icon: MapPin, title: 'Location', info: 'United States' },
+              { 
+                icon: Mail, 
+                title: 'Email', 
+                info: 'admin@azure-artsfoundation.org',
+                href: 'mailto:admin@azure-artsfoundation.org'
+              },
+              { 
+                icon: Phone, 
+                title: 'Phone', 
+                info: '+1 (505) 399-7162',
+                href: 'tel:+15053997162'
+              },
+              { 
+                icon: MapPin, 
+                title: 'Location', 
+                info: 'Waßmannsdorfer Chaussee 117, Schönefeld 12529, Germany'
+              },
             ].map((item, i) => (
               <div key={i} className="text-center p-6 bg-gray-50 rounded-xl">
                 <item.icon className="w-8 h-8 text-primary-600 mx-auto mb-3" />
                 <h3 className="font-semibold text-gray-900 mb-1">{item.title}</h3>
-                <p className="text-sm text-gray-600">{item.info}</p>
+                {item.href ? (
+                  <a href={item.href} className="text-sm text-gray-600 hover:text-primary-600 transition-colors">
+                    {item.info}
+                  </a>
+                ) : (
+                  <p className="text-sm text-gray-600">{item.info}</p>
+                )}
               </div>
             ))}
           </div>
