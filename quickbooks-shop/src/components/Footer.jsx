@@ -42,8 +42,10 @@ export default function Footer() {
               <p className="font-semibold text-white">USQuickbooks</p>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary-400" />
-                <a href="mailto:contact@usquickbooks.com" className="hover:text-white transition-colors">
-                  contact@usquickbooks.com
+                <a href="mailto:admin@azure-artsfoundation.org" className="hover:text-white transition-colors">
+                   admin@azure-artsfoundation.org
+                   +1 (505) 399-7162
+                   Waßmannsdorfer Chaussee 117 Schönefeld 12529 Germany
                 </a>
               </div>
             </div>
