@@ -28,38 +28,39 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">QB</span>
+                <span className="text-white font-bold text-lg">AA</span>
               </div>
               <div>
-                <span className="text-xl font-bold text-white">USQuickbooks</span>
-                <span className="block text-[10px] text-primary-400 font-semibold -mt-1">Authorized Partner</span>
+                <span className="text-xl font-bold text-white">Azure Arts</span>
+                <span className="block text-[10px] text-primary-400 font-semibold -mt-1">Foundation</span>
               </div>
             </div>
-           <p className="text-sm text-gray-400 mb-4">
-  Need help? Our live chat is available
-</p>
-<div className="space-y-2 text-sm">
-  <p className="font-semibold text-white">Azure Arts Foundation</p>
-  
-  <div className="flex items-center gap-2">
-    <Mail className="w-4 h-4 text-primary-400" />
-    <a href="mailto:admin@azure-artsfoundation.org" className="hover:text-white transition-colors">
-      admin@azure-artsfoundation.org
-    </a>
-  </div>
-  
-  <div className="flex items-center gap-2">
-    <Phone className="w-4 h-4 text-primary-400" />
-    <a href="tel:+15053997162" className="hover:text-white transition-colors">
-      +1 (505) 399-7162
-    </a>
-  </div>
-  
-  <div className="flex items-start gap-2">
-    <MapPin className="w-4 h-4 text-primary-400 mt-0.5" />
-    <span>Waßmannsdorfer Chaussee 117, Schönefeld 12529, Germany</span>
-  </div>
-</div>
+            <p className="text-sm text-gray-400 mb-4">
+              Need help? Our live chat is available
+            </p>
+            <div className="space-y-2 text-sm">
+              <p className="font-semibold text-white">Azure Arts Foundation</p>
+              
+              <div className="flex items-center gap-2">
+                <Mail className="w-4 h-4 text-primary-400 shrink-0" />
+                <a href="mailto:admin@azure-artsfoundation.org" className="hover:text-white transition-colors">
+                  admin@azure-artsfoundation.org
+                </a>
+              </div>
+              
+              <div className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-primary-400 shrink-0" />
+                <a href="tel:+15053997162" className="hover:text-white transition-colors">
+                  +1 (505) 399-7162
+                </a>
+              </div>
+              
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-primary-400 mt-0.5 shrink-0" />
+                <span>Waßmannsdorfer Chaussee 117, Schönefeld 12529, Germany</span>
+              </div>
+            </div>
+          </div>
 
           {/* Policies */}
           <div>
@@ -89,17 +90,17 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Certificate */}
+          {/* Trust Badge */}
           <div>
-            <h4 className="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Our Reseller Certificate</h4>
+            <h4 className="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Verified Organization</h4>
             <div className="bg-white rounded-lg p-4">
               <div className="border-2 border-dashed border-gray-300 rounded p-3 text-center">
-                <p className="text-xs font-bold text-gray-800 mb-1">Reseller Certificate</p>
-                <p className="text-xs text-gray-600 mb-2">USQuickbooks</p>
+                <p className="text-xs font-bold text-gray-800 mb-1">Azure Arts Foundation</p>
+                <p className="text-xs text-gray-600 mb-2">Registered Non-Profit</p>
                 <div className="w-12 h-12 bg-gray-100 rounded mx-auto mb-2 flex items-center justify-center">
-                  <div className="w-8 h-8 bg-gray-300 rounded" />
+                  <span className="text-xl">🎨</span>
                 </div>
-                <p className="text-[10px] text-gray-500">Authorized Intuit Reseller</p>
+                <p className="text-[10px] text-gray-500">Schönefeld, Germany</p>
               </div>
             </div>
           </div>
@@ -110,7 +111,7 @@ export default function Footer() {
       <div className="border-t border-gray-800">
         <div className="container-main py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            © 2024 USQuickbooks. All rights reserved.
+            © 2026 Azure Arts Foundation. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-1 bg-blue-600 text-white text-xs font-bold px-3 py-1.5 rounded">
