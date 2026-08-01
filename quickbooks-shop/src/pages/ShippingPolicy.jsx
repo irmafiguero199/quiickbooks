@@ -3,7 +3,7 @@ import SEO from '../components/SEO'
 export default function ShippingPolicy() {
   return (
     <>
-      <SEO title="Shipping & Delivery Policy" description="TaxUSA shipping and delivery policy for digital products." pathname="/shipping-delivery" />
+      <SEO title="Shipping & Delivery Policy" description="azure-artsfoundation shipping and delivery policy for digital products." pathname="/shipping-delivery" />
       <div className="container-main py-12">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">Shipping & Delivery Policy</h1>
@@ -17,7 +17,7 @@ export default function ShippingPolicy() {
             <p className="mb-4">Delivery is typically within minutes of payment confirmation. During occasional manual verification, delivery may take up to a few business hours.</p>
 
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">Didn't Receive Your Email?</h2>
-            <p className="mb-4">Check your spam/junk folder first. If you still can't find it, contact <a href="mailto:support@taxusa.shop" className="text-blue-600 hover:underline">support@taxusa.shop</a> with your order number and we'll resend it immediately.</p>
+            <p className="mb-4">Check your spam/junk folder first. If you still can't find it, contact <a href="mailto:admin@azure-artsfoundation.org" className="text-blue-600 hover:underline">admin@azure-artsfoundation.org</a> with your order number and we'll resend it immediately.</p>
 
             <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3">Incorrect Email</h2>
             <p>If you entered the wrong email, contact us right away so we can correct delivery.</p>
