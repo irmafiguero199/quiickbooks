@@ -12,7 +12,7 @@ export default function Contact() {
 
   return (
     <>
-      <SEO title="Contact Us" description="Get in touch with Azure Arts Foundation." pathname="/contact" />
+      <SEO title="Contact Us" description="Get in touch with shilohbaptistrochester." pathname="/contact" />
       <div className="container-main py-12">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-4 text-center">Contact Us</h1>
@@ -23,8 +23,8 @@ export default function Contact() {
               { 
                 icon: Mail, 
                 title: 'Email', 
-                info: 'admin@azure-artsfoundation.org',
-                href: 'mailto:admin@azure-artsfoundation.org'
+                info: 'admin@shilohbaptistrochester.org',
+                href: 'admin@shilohbaptistrochester.org'
               },
               { 
                 icon: Phone, 
